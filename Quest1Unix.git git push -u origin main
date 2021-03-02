@@ -1,0 +1,96 @@
+This message is shown once a day. To disable it please create the
+/home/jerome/.hushlogin file.
+jerome@DESKTOP-RDDEKJ8:~$ ls
+jerome@DESKTOP-RDDEKJ8:~$ ls images
+ls: cannot access 'images': No such file or directory
+jerome@DESKTOP-RDDEKJ8:~$ ls Images
+ls: cannot access 'Images': No such file or directory
+jerome@DESKTOP-RDDEKJ8:~$ ls .
+jerome@DESKTOP-RDDEKJ8:~$ ls.
+
+Command 'ls.' not found, did you mean:
+
+  command 'ls' from deb coreutils (8.30-3ubuntu2)
+  command 'lsw' from deb suckless-tools (44-1)
+  command 'lsh' from deb lsh-client (2.1-12build3)
+  command 'lsc' from deb livescript (1.6.0+dfsg-1)
+  command 'lsm' from deb lsm (1.0.4-1)
+
+Try: sudo apt install <deb name>
+
+jerome@DESKTOP-RDDEKJ8:~$ ls -a
+.  ..  .bash_logout  .bashrc  .landscape  .motd_shown  .profile
+jerome@DESKTOP-RDDEKJ8:~$ pwd
+/home/jerome
+jerome@DESKTOP-RDDEKJ8:~$ cd Images
+-bash: cd: Images: No such file or directory
+jerome@DESKTOP-RDDEKJ8:~$ cd ..
+jerome@DESKTOP-RDDEKJ8:/home$ ls -a
+.  ..  jerome
+jerome@DESKTOP-RDDEKJ8:/home$ pwd
+/home
+jerome@DESKTOP-RDDEKJ8:/home$ ls
+jerome
+jerome@DESKTOP-RDDEKJ8:/home$ ls /home
+jerome
+jerome@DESKTOP-RDDEKJ8:/home$ cd../home/jerome
+-bash: cd../home/jerome: No such file or directory
+jerome@DESKTOP-RDDEKJ8:/home$ cd/home
+-bash: cd/home: No such file or directory
+jerome@DESKTOP-RDDEKJ8:/home$ cd/jerome
+-bash: cd/jerome: No such file or directory
+jerome@DESKTOP-RDDEKJ8:/home$ ls -a
+.  ..  jerome
+jerome@DESKTOP-RDDEKJ8:/home$ pwd
+/home
+jerome@DESKTOP-RDDEKJ8:/home$ cd home
+-bash: cd: home: No such file or directory
+jerome@DESKTOP-RDDEKJ8:/home$ cd ..
+jerome@DESKTOP-RDDEKJ8:/$ cd /home/jerome
+jerome@DESKTOP-RDDEKJ8:~$ cd/home/jerome
+-bash: cd/home/jerome: No such file or directory
+jerome@DESKTOP-RDDEKJ8:~$ cd /home/jerome
+jerome@DESKTOP-RDDEKJ8:~$ /pwd
+-bash: /pwd: No such file or directory
+jerome@DESKTOP-RDDEKJ8:~$ ls -a
+.  ..  .bash_logout  .bashrc  .landscape  .motd_shown  .profile
+jerome@DESKTOP-RDDEKJ8:~$ pwd
+/home/jerome
+jerome@DESKTOP-RDDEKJ8:~$ ls
+jerome@DESKTOP-RDDEKJ8:~$ cd
+jerome@DESKTOP-RDDEKJ8:~$ cd /home
+jerome@DESKTOP-RDDEKJ8:/home$ cd /jerome
+-bash: cd: /jerome: No such file or directory
+jerome@DESKTOP-RDDEKJ8:/home$ cd /home/jerome
+jerome@DESKTOP-RDDEKJ8:~$ pwd
+/home/jerome
+jerome@DESKTOP-RDDEKJ8:~$ pwd
+/home/jerome
+jerome@DESKTOP-RDDEKJ8:~$ cd ..
+jerome@DESKTOP-RDDEKJ8:/home$ pwd
+/home
+jerome@DESKTOP-RDDEKJ8:/home$ cd..
+cd..: command not found
+jerome@DESKTOP-RDDEKJ8:/home$ pwd
+/home
+jerome@DESKTOP-RDDEKJ8:/home$ cd ..
+jerome@DESKTOP-RDDEKJ8:/$ pwd
+/
+jerome@DESKTOP-RDDEKJ8:/$ ls
+bin   dev  home  lib    lib64   media  opt   root  sbin  srv  tmp  var
+boot  etc  init  lib32  libx32  mnt    proc  run   snap  sys  usr
+jerome@DESKTOP-RDDEKJ8:/$ cd home
+jerome@DESKTOP-RDDEKJ8:/home$ pwd
+/home
+jerome@DESKTOP-RDDEKJ8:/home$ ls
+jerome
+jerome@DESKTOP-RDDEKJ8:/home$ cd jerome
+jerome@DESKTOP-RDDEKJ8:~$ pwd
+/home/jerome
+jerome@DESKTOP-RDDEKJ8:~$ ls
+jerome@DESKTOP-RDDEKJ8:~$ cd /home/jerome
+jerome@DESKTOP-RDDEKJ8:~$ cd ..
+jerome@DESKTOP-RDDEKJ8:/home$ cd ..
+jerome@DESKTOP-RDDEKJ8:/$ ls
+bin   dev  home  lib    lib64   media  opt   root  sbin  srv  tmp  var
+boot  etc  init  lib32  libx32  mnt    proc  run   snap  sys  usr
